@@ -64,7 +64,7 @@ end
 # takes a string and returns true if the string
 # represents a binary number that is a multiple of 4.
 def binary_multiple_of_4? s
-  s == "0" ? true : s =~ /^0*(10)+0$/
+  s =~ /^0*(10)*0$/
 end
 
 # Part 3
