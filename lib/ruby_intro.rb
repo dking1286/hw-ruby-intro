@@ -57,6 +57,8 @@ def hello(name)
   "Hello, #{name}"
 end
 
+# takes a string and returns true if it starts with a consonant
+# and false otherwise
 def starts_with_consonant? s
   s =~ /^[^aeiou]/i && s =~ /^\w/
 end
